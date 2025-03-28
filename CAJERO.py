@@ -50,7 +50,6 @@ while True:
             # Retirar
             elif operaciones == 1:
                 valor_retiro = int(input('¿Cuánto quiere retirar: '))
-                
 
                 if valor_retiro <= saldo_cuenta_usuario:
                     print('Retiro exitoso')
@@ -70,4 +69,7 @@ while True:
 
     else:
         print('Error: no seleccionó una opción válida')
-        
+print("Valor")
+
+
+
